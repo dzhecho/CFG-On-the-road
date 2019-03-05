@@ -2,7 +2,7 @@ body {
   color: rgb(65, 75, 86);
   font-family: Times;
   margin: 0px;
-  background: url(src="b1.jpeg");
+  background-image: url("b4.jpeg");
   background-size: cover;
   background-position: center;
 }
@@ -12,6 +12,7 @@ div {
 
 }
 div.social-handle {
+#how to use local pic as background
   background-color: rgb(255,255,255);
   color: rgb(0,0,0);
   display: flex;
@@ -32,6 +33,7 @@ h1，h2{
 }
 h1 {
   font-size: 5em;
+  color: rgb(0, 0, 0);
 }
 ul {
   list-style: none;

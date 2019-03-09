@@ -1,16 +1,24 @@
+
 body {
   color: rgb(65, 75, 86);
   font-family: Times;
   margin: 0px;
-  background-image: url("b4.jpeg");
+  background-image: url("b3.jpeg");
   background-size: cover;
   background-position: center;
 }
-div {
+#div {
   min-height: 100vh;
   width: 100vw;
 
 }
+
+p {
+  display: flex;
+  justify-content: center;
+}
+
+
 div.social-handle {
 #how to use local pic as background
   background-color: rgb(255,255,255);
@@ -19,6 +27,9 @@ div.social-handle {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+
 }
 div.about-us {
   background-color: rgb(255,255,255);
@@ -27,7 +38,19 @@ div.about-us {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
 }
+
+div.btn-group {
+  display: flex;
+  justify-content:flex-end;
+
+  flex-direction: row;
+}
+
+div.BIO
+
 h1，h2{
   text-align: center;
 }
@@ -44,4 +67,12 @@ img {
   padding: 20px;
   margin: 0 auto;
   border-radius: 130px;
+}
+
+
+dl {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center
 }

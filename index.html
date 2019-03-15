@@ -1,22 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>On the Road</title>
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>On the Road</title>
-    <link rel="stylesheet" type="text/css" href="css/webstyle.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <script src="js/bootstrap.js"></script>
-    <script src="css/bootstrap.css"></script>
-</head>
-<body>
+
+  <link rel="stylesheet" type="text/css" href="css/webstyle.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css"-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
   <!--div class='container'-->
 <!-- page content goes here -->
 
 
+<style>
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
 
+
+  footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+  @media (max-width: 600px) {
+   .carousel-caption {
+     display: none;
+   }
+ }
+</style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
   <!--div class="page-header"Not Working!-->
   <div class="btn-group btn-group-justified">
   <div class="btn-group btn-group-xs">
@@ -24,7 +75,6 @@
     <!--button type="button" class="btn btn-default">About Us</button-->
     <button type="button" class="btn btn-default">Contact Us</button>
     <button type="button" class="btn btn-default">Pictures</button>
-  </div>
   </div>
   </div>
 

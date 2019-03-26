@@ -1,11 +1,12 @@
 body {
-  height: 100%;
+
   margin: 0;
+  padding: 0;
   background-color: black;
   color:#fff;
 }
 
-img {
+.intro img {
   width:100%;
   margin:0 auto;
 }
@@ -51,3 +52,18 @@ img {
   border: none;
   border-radius: 300px;
 }
+<<<<<<< HEAD
+=======
+
+h1 {
+  font-weight: lighter;
+  font-size: 60px;
+  text-align: center;
+}
+
+p {
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: center;
+}
+>>>>>>> 7562db2c73e6c0776df90eabe4d63d17a43322e3

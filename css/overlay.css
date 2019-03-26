@@ -1,6 +1,10 @@
 body{
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
+=======
+  background-color: black;
+>>>>>>> 7562db2c73e6c0776df90eabe4d63d17a43322e3
 }
 .container{
   position:absolute;
@@ -49,5 +53,8 @@ body{
   font-family: sans-serif;
   text-transform:uppercase;
   width:100%;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7562db2c73e6c0776df90eabe4d63d17a43322e3
 }

@@ -1,6 +1,7 @@
 body{
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 .container{
   position:absolute;
@@ -49,5 +50,4 @@ body{
   font-family: sans-serif;
   text-transform:uppercase;
   width:100%;
-
 }

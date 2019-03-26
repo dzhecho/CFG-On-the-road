@@ -9,3 +9,45 @@ img {
   width:100%;
   margin:0 auto;
 }
+
+.intro h1{
+  color:white;
+  font-weight:lighter;
+  font-size:40px;
+}
+
+.intro p{
+  color:white;
+  font-weight:lighter;
+  font-size:25px;"
+}
+.intro {
+  background-color: black;
+  filter: 70%;
+}
+
+.intro .container-fluid {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 200px;
+  padding-left: 200px;
+
+}
+
+.btn-primary {
+  background-color: white;
+  border-color: white;
+  color: #1d6597;
+  font-weight: lighter;
+}
+
+.intro .btn-xl {
+  padding: 1rem 2rem;
+}
+
+.intro .btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+}
